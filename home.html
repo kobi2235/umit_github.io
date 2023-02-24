@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Басты бет</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">Umit.</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <h3 class="name">Лунара</h3>
+         <p class="role">Студент</p>
+         <a href="profile.html" class="btn">Профиль</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">Логин</a>
+            <a href="register.html" class="option-btn">Тіркелу</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/pic-1.jpg" class="image" alt="">
+      <h3 class="name">Лунара</h3>
+      <p class="role">студент</p>
+      <a href="profile.html" class="btn">Профиль</a>
+   </div>
+
+   <nav class="navbar">
+    <a href="home.html"><i class="fas fa-home"></i><span>Басты бет</span></a>
+      <a href="index.html"><i class="fas fa-chalkboard-user"></i><span>Біз туралы</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Курстар</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Бізбен байланыс</span></a>
+   </nav>
+
+</div>
+
+<section class="home-grid">
+
+   <h1 class="heading">Опциялар</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3 class="title">Ұнаған видеолар</h3>
+         <p class="likes">Лайктар саны : <span>25</span></p>
+         <p class="likes">Комменттер саны : <span>12</span></p>
+         <p class="likes">Сақталған плейлист : <span>4</span></p>
+      </div>
+
+      <div class="box">
+         <h3 class="title">Танымал курстар</h3>
+         <div class="flex">
+            <a href="#"><i class="fab fa-html5"></i><span>HTML</span></a>
+            <a href="#"><i class="fab fa-css3"></i><span>CSS</span></a>
+            <a href="#"><i class="fab fa-js"></i><span>javascript</span></a>
+            <a href="#"><i class="fab fa-react"></i><span>react</span></a>
+            <a href="#"><i class="fab fa-php"></i><span>PHP</span></a>
+            <a href="#"><i class="fab fa-bootstrap"></i><span>bootstrap</span></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3 class="title">Оқытушы атану</h3>
+         <p class="tutor">Білетін біліміңізбен бөлісе отырыңыз!</p>
+         <a href="teachers.html" class="inline-btn">Бастау</a>
+      </div>
+
+   </div>
+
+</section>
+
+
+
+<section class="courses">
+
+   <h1 class="heading">Курстар</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-2.jpg" alt="">
+            <div class="info">
+               <h3>Аружан</h3>
+               <span>21-10-2022</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-1.png" alt="">
+            <span>10 видео</span>
+         </div>
+         <h3 class="title">HTML курстары</h3>
+         <a href="playlist.html" class="inline-btn">Профиль</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-3.jpg" alt="">
+            <div class="info">
+               <h3>Самат</h3>
+               <span>21-10-2022</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-2.png" alt="">
+            <span>10 видео</span>
+         </div>
+         <h3 class="title">CSS курстары</h3>
+         <a href="playlist.html" class="inline-btn">профиль</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-4.jpg" alt="">
+            <div class="info">
+               <h3>Алем</h3>
+               <span>21-10-2022</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-3.png" alt="">
+            <span>10 видео</span>
+         </div>
+         <h3 class="title">JS курстары </h3>
+         <a href="playlist.html" class="inline-btn">профиль</a>
+      </div>
+   </div>
+
+   <div class="more-btn">
+      <a href="courses.html" class="inline-option-btn">view all courses</a>
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   Кез келген адам бағдарламашы бола алады !
+
+</footer>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
